@@ -33,6 +33,7 @@ import java.util.logging.Logger;
 public class Produto implements DefaultModel<Produto> {
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 	@GridHeader(name = "ID", size = 10)
 	public Long id;
 	@GridHeader(name = "Nome", size = 50)
@@ -133,6 +134,8 @@ public class Produto implements DefaultModel<Produto> {
 		return null;
 	}
 =======
+=======
+>>>>>>> FETCH_HEAD
     @GridHeader(name = "ID", size = 10)
     public Long id;
     @GridHeader(name = "Nome", size = 50)
@@ -234,5 +237,8 @@ public class Produto implements DefaultModel<Produto> {
     public List<? extends DefaultModel> getObj(final String campo) {
         return null;
     }
+<<<<<<< HEAD
+>>>>>>> FETCH_HEAD
+=======
 >>>>>>> FETCH_HEAD
 }
