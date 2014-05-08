@@ -7,6 +7,7 @@ package app;
 
 import service.Produto;
 import service.Usuario;
+import service.Cotacao;
 import swing.ui.DefaultList;
 
 /**
@@ -18,12 +19,14 @@ public class Application {
 	private static Application instance;
 	public DefaultList listUsuario;
 	public DefaultList listProdutos;
+        public DefaultList listCotacoes;
 	public Main main;
 
 	private Application() {
 		this.main = new Main();
 		this.listUsuario = new DefaultList(this.main, new Usuario());
 		this.listProdutos = new DefaultList(this.main, new Produto());
+                this.listCotacoes = new DefaultList(this.main, new Cotacao());
 
 	}
 
